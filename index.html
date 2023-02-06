@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #colors {
+      float: left;
+      width: 200px;
+      margin-right: 20px;
+    }
+
+    #colorList {
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      display: flex;
+    }
+
+    #colorList li {
+      cursor: pointer;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      width: 60px;
+      height: 30px;
+      border: 1px solid rgb(24, 23, 23);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div id="colors">
+      <h2>Available Colors:</h2>
+      <ul id="colorList"></ul>
+    </div>
+    <table id="colorGrid">
+      
+      <tr>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+      </tr>
+
+      <tr>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+      <tr>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+      <tr>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f90;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+      <tr>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+      <tr>
+        <td id ="listner" style="background-color: #0f0;"></td>
+
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+      <tr>
+        <td id ="listner" style="background-color: #0f0;"></td>
+
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+      <tr>
+        <td id ="listner" style="background-color: #0f0;"></td>
+
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #ff0000;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #0ff;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+        <td id ="listner" style="background-color: #f0f;"></td>
+      </tr>
+
+      <tr>
+        <td id ="listner" style="background-color: #0f0;"></td>
+
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+      </tr>
+
+       <tr>
+        <td id ="listner" style="background-color: #0f0;"></td>
+
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #0f0;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+        <td id ="listner" style="background-color: #90f;"></td>
+      </tr>
+    </table>
+  </div>
+  
+
+  <script>
+    const availableColors = [
+      '#ff0000', '#f90', '#ff0', '#0f0', ' #0ff', '#4a86e8', '#0000ff', '#90f', '#f0f ', '#a64d79'
+    ];
+    const app = document.getElementById('app');
+    const colorList = document.getElementById('colorList');
+    const colorGrid = document.getElementById('colorGrid');
+
+    // create a list of available colors
+    availableColors.forEach(color => {
+      const colorItem = document.createElement('li');
+      colorItem.style.backgroundColor = color;
+      colorItem.addEventListener('click', e => {
+        setSelectedColor(color);
+      });
+      colorList.appendChild(colorItem);
+    });
+
+
+    // initialize color grid
+    for (let i = 0; i < 10; i++) {
+      const row = document.createElement('tr');
+      for (let j = 0; j < 10; j++) {
+        const cell = document.getElementById('listner'); 
+        cell.addEventListener('click', e => {
+          setCellColor(cell);
+        });
+        row.appendChild(cell);
+      }
+      colorGrid.appendChild(row);
+    }
+
+    // set selected color
+    let selectedColor = availableColors[0];
+    function setSelectedColor(color) {
+      selectedColor = color;
+    }
+
+
+    // set cell color using Flood Fill algorithm
+    
+    function setCellColor(cell) {
+      const currentColor = cell.style.backgroundColor;
+      if (currentColor === selectedColor) {
+        return;
+      }
+
+      const cellsToFill = [];
+      cellsToFill.push(cell);
+
+      while (cellsToFill.length) {
+        const currentCell = cellsToFill.pop();
+        currentCell.style.backgroundColor = selectedColor;
+
+        const row = currentCell.parentNode.rowIndex;
+        const col = currentCell.cellIndex;
+
+        const up = row > 0 ? colorGrid.rows[row - 1].cells[col] : null;
+        if (up && up.style.backgroundColor === currentColor) {
+          cellsToFill.push(up);
+        }
+
+        const down = row < colorGrid.rows.length - 1 ? colorGrid.rows[row + 1].cells[col] : null;
+        if (down && down.style.backgroundColor === currentColor) {
+          cellsToFill.push(down);
+        }
+
+        const left = col > 0 ? colorGrid.rows[row].cells[col - 1] : null;
+        if (left && left.style.backgroundColor === currentColor) {
+          cellsToFill.push(left);
+        }
+
+        const right = col < colorGrid.rows[row].cells.length - 1 ? colorGrid.rows[row].cells[col + 1] : null;
+        if (right && right.style.backgroundColor === currentColor) {
+          cellsToFill.push(right);
+        }
+      }
+    }
+
+
+  </script>
+</body>
+
+</html>
